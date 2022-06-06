@@ -1,0 +1,540 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #262626;
+  background-color: white;  
+}
+
+ion-icon {
+  font-size: 18px;
+}
+/* TOPO: LOGOS, PESQUISAR & ICONES*/ 
+.topo {
+  z-index: 1;
+  height: 54px;
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  border: 1px solid #ebebeb;  
+}
+
+.espaço {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+  
+.itens-topo {
+  height: 100%;
+  width: 935px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.logo {
+  height: 100%;
+  width: 31px;
+  margin-left: 4%;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.logo-nome img{
+  margin-left: 9px;
+}
+
+.logo-nome {
+  height: 100%;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.topo-centro {
+  height: 100%;
+  width: 593px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+  
+.pesquisar {
+  width: 215px;
+  height: 26px;
+  background-color: white;
+  border: 1px solid #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+  
+.icones {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+  
+.direct{
+ display: none;
+}
+
+.icones-size {
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+/*CORPO: TEM O STORIES, O FEED & A BARRA LATERAL*/  
+.corpo {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*STORIES*/ 
+.stories {
+  position: relative;
+  max-height: 118px;
+  max-width: 614px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: white;
+  display: inline-flex;
+  border-radius: 3px;
+  border: 1px solid #ebebeb;
+}
+.seta {
+  position: absolute;
+  padding-left: 94%;
+  padding-top: 40px;
+}
+.setastories {
+  font-size: 26px;
+  background-color: white;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.5rem grey);
+}
+  
+.feed {
+  background-color: white;
+  width: 935px;
+  height: 100vh;
+  padding-top: 34px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.feed-size {
+  height: 750px;
+  width: 614px;
+} 
+
+.circulo-storie {
+  background-image: url(img/storiesbackground.png);
+  background-repeat: no-repeat;
+  background-size: 66px;
+  background-position: top 14.5px right 10px;
+  height: 124px; 
+  width: 81px;
+  padding-right: 10px;
+  padding-left: 10px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.fotostorie {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+}
+  
+  .nome {
+    width: 66px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 400;
+  }
+  
+  .textostories {
+    display: flex;
+    justify-content: center;
+  }
+   
+  
+  /* FEED */
+  
+  .feed-postagens {
+    background-color: white;
+    height: 749px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+  }
+  
+  .usuario {
+    height: 61px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .foto {
+    height: 100%;
+    width: 170px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 7px;
+    font-weight: 400;
+  }
+  
+  .perfil {
+    height: 43px;
+    width: 52px;
+    border-radius: 50%;
+  }
+  
+  .perfilfeed
+  {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 5%;
+  }
+  
+  .verificado {
+    width: 10px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+  }
+  
+  .pontinhos {
+    height: 100%;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video {
+    width: 612px;
+    height: 612px;
+    background-color: black;
+  }
+  
+  .imgpost {
+    width: 100%;
+    height: 612px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .img-postagem {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .icones-rodape {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .esquerdarodape {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+  }
+  
+  .iconesesquerdarodape {
+    width: 35.69px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .salvar {
+    width: 312px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8.5px;
+  }
+  
+  .curtidas {
+    width: auto;
+    height: 36px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 7px;
+  }
+  
+  .quemcurtiu {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .num-curtidas {
+    padding-left: 5px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .num-curtidas b{
+    font-weight: bold;
+  }
+  
+  /*------------SIDEBAR-------------*/
+  
+  .abalateraldireita {
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    top: 74px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .centralizar {
+    width: 935px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .abalateral {
+    height: 500px;
+    width: 293px;
+  }
+  
+  .storiedestaque {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .perfil {
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+  }
+  
+  
+  .textodestaque {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 17px;
+  }
+  .nomedausuario {
+    padding-bottom: 5px;
+  }
+  
+  .pessoas-seguir {
+    height: 100%; /*auto?*/
+    width: 100%;
+  }
+  
+  .sugestoes {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8e8e8e;
+  }
+  
+  .sugestao {
+    display: flex;
+    height: 38px;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .colunas {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sugestaodireita {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #139ef2;
+    font-size: 12px;
+  }
+  
+  .sugestaoesquerda {
+    height: 48px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .fotosugestao {
+    width: 32px;
+    border-radius: 50%;
+  }
+  
+  .sugestoesinsta {
+    padding-left: 11px;
+  }
+  
+  .nomesugestao {
+    padding-bottom: 5px;
+  }
+  
+  .ajuda {
+    display: flex;
+    flex-direction: column;
+    color: #c7c7c7;
+  }
+  
+    
+  .nomedausuario,
+  .nomeperfil,
+  .nomesugestao {
+    font-weight: 500;
+    font-size: 14px;
+  }
+ 
+  .subtitulo,
+  .nomestories,
+  .search,
+  .tesegue {
+    font-weight: 300;
+    font-size: 12px;
+  }
+  
+  .textoajuda {
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  
+  .ver-tudo {
+    color: #262626;
+  }
+  
+
+
+/*600px*/
+@media (max-width: 600px){
+
+
+    .topo {
+        width: 100%;
+        height: 54px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .centro {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .espaço {
+        width: 100vw;
+        height: 38px;
+        background-color: white;
+    }
+
+    .logo {
+        padding-left: 15px;
+    }
+
+
+    .icones {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+
+    .stories {
+        background-color: #ebebeb;
+    }
+
+    .extra {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    .abalateraldireita,.centralizar,.abalateral,.sugestoes ,.seta,.icones-size,.topo-centro, .instagram {
+        display: none;
+      }
+
+}
+/*935px*/
+@media (max-width: 935px) {
+  .topo {
+    width: 100vw;
+  }
+
+  .itens-topo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo {
+    padding-left: 9px;
+  }
+
+  .feed {
+    display: flex;
+    justify-content: center;
+  }
+
+  .abalateraldireita,.abalateral {
+    display: none;
+  }
+}
+
+ 
